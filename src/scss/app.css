@@ -1,0 +1,110 @@
+@font-face {
+    font-family: 'Product Sans';
+    src: url('./fuentes/Product Sans Regular.ttf');
+}
+
+header {
+    padding: 50px;
+    background-image: url(../img/business.png);
+    background-repeat: no-repeat;
+    height: 400px;
+
+    h2 {
+        font-size: 1.2rem;
+    }
+
+    form {
+        margin-top: 50px;
+        max-width: 400px;
+    }
+}
+
+.container {
+    font-family: 'product Sans';
+}
+
+.container>h1 {
+    color: #356CB1;
+    font-family: Product Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: -5px;
+}
+
+@media (max-width: 600px) {
+
+    .container>.search-form,
+    .form-control {
+        width: 90% !important;
+        height: 40px;
+        flex-shrink: 0;
+        border-radius: 25px;
+        font-size: 15px !important;
+        background: #FFF;
+        margin-bottom: 6px;
+        box-shadow: 0px 0.03703703731298447px 3.1481480598449707px 0px rgba(0, 0, 0, 0.03), 0px 0.16296295821666718px 6.518518447875977px 0px rgba(0, 0, 0, 0.05), 0px 0.4000000059604645px 13px 0px rgba(0, 0, 0, 0.06), 0px 0.770370364189148px 25.481481552124023px 0px rgba(0, 0, 0, 0.08), 0px 1.296296238899231px 46.85185241699219px 0px rgba(0, 0, 0, 0.10), 0px 2px 80px 0px rgba(0, 0, 0, 0.13);
+    }
+
+    .btn-block, .btn-primary{
+        width: 60% !important;
+        height: 40px;
+        flex-shrink: 0;
+        border-radius: 25px;
+        background: #356CB1;
+        margin-top: 13px;
+    }
+    
+}
+
+.container>#search-form{
+   margin-top: -2px;
+}
+
+.container>.search-form,
+.form-control {
+    width: 35%;
+    height: 40px;
+    flex-shrink: 0;
+    border-radius: 25px;
+    font-size: 18px;
+    background: #FFF;
+    margin-bottom: 6px;
+    box-shadow: 0px 0.03703703731298447px 3.1481480598449707px 0px rgba(0, 0, 0, 0.03), 0px 0.16296295821666718px 6.518518447875977px 0px rgba(0, 0, 0, 0.05), 0px 0.4000000059604645px 13px 0px rgba(0, 0, 0, 0.06), 0px 0.770370364189148px 25.481481552124023px 0px rgba(0, 0, 0, 0.08), 0px 1.296296238899231px 46.85185241699219px 0px rgba(0, 0, 0, 0.10), 0px 2px 80px 0px rgba(0, 0, 0, 0.13);
+}
+
+.card {
+    margin: 25px 0;
+    border-radius: 25px;
+    box-shadow: 0px 0.03703703731298447px 3.1481480598449707px 0px rgba(0, 0, 0, 0.03), 0px 0.16296295821666718px 6.518518447875977px 0px rgba(0, 0, 0, 0.05), 0px 0.4000000059604645px 13px 0px rgba(0, 0, 0, 0.06), 0px 0.770370364189148px 25.481481552124023px 0px rgba(0, 0, 0, 0.08), 0px 1.296296238899231px 46.85185241699219px 0px rgba(0, 0, 0, 0.10), 0px 2px 80px 0px rgba(0, 0, 0, 0.13);
+}
+
+.card-title,
+.Joblink {
+    color: #356CB1;
+}
+
+.btn-block,
+.btn-primary {
+    width: 25%;
+    height: 40px;
+    flex-shrink: 0;
+    border-radius: 25px;
+    background: #356CB1;
+    margin-top: 10px;
+}
+
+.btn-block,
+.btn-primary:hover, .btn-block,
+.btn-primary:focus {
+    outline: none;
+    background: #356CB1;
+}
+
+.loading-element {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    display: none;
+}
