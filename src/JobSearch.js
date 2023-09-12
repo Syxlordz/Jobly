@@ -14,7 +14,7 @@ export class JobSearch {
     const username = "Syxlordz";
     const { search, location } = extractFormData(this.searchForm);
 
-    const url = `http://api.geonames.org/searchJSON?q=${location}&maxRows=1&username=${username}`;
+    const url = `https://secure.geonames.org/searchJSON?q=${location}&maxRows=1&username=${username}`;
 
     fetch(url)
       .then(response => response.json())
@@ -38,7 +38,7 @@ export class JobSearch {
     this.countryCode = 'gb';
     this.setCurrencySymbol();
 
-    fetch('http://ip-api.com/json')
+    fetch('https://ip-api.com/json')
       .then(results => results.json())
       .then(results => {
         this.countryCode = results.countryCode.toLowerCase();
