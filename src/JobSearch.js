@@ -1,5 +1,5 @@
-import { jobTemplate } from './templates';
-import { extractFormData, getCurrencySymbol } from './utils';
+import { jobTemplate } from './templates.js';
+import { extractFormData, getCurrencySymbol } from './utils.js';
 
 
 export class JobSearch {
