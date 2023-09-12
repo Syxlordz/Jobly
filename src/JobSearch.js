@@ -38,10 +38,10 @@ export class JobSearch {
     this.countryCode = 'gb';
     this.setCurrencySymbol();
 
-    fetch('https://ip-api.com/json')
+    fetch('https://ipinfo.io/json')
       .then(results => results.json())
       .then(results => {
-        this.countryCode = results.countryCode.toLowerCase();
+        this.countryCode = results.country.toLowerCase();
         this.setCurrencySymbol();
       });
   }
