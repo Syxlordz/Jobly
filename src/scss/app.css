@@ -107,4 +107,7 @@ header {
     height: 100px;
     margin: 0 auto;
     display: none;
+    &.loading {
+        display: block;
+    }
 }
