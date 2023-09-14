@@ -17,7 +17,7 @@
 }
 
 .FirstDiv>.Form>.Usuario,
-.FirstDiv>.Form>.Contraseña, .Correo{
+.FirstDiv>.Form>.Contraseña{
     width: 250px;
     height: 30px;
     flex-shrink: 0;
@@ -35,7 +35,7 @@
 }
 
 .FirstDiv>.Form>.Usuario:focus,
-.FirstDiv>.Form>.Contraseña:focus, .Correo:focus{
+.FirstDiv>.Form>.Contraseña:focus{
  outline: none;
 }
 
