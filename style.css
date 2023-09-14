@@ -1,8 +1,8 @@
 .FirstDiv {
     margin: auto;
-    margin-top: 10%;
+    margin-top: 7%;
     width: 300px;
-    height: 450px;
+    height: 540px;
     border-radius: 25px;
     display: flex;
     flex-direction: column;
@@ -17,7 +17,7 @@
 }
 
 .FirstDiv>.Form>.Usuario,
-.FirstDiv>.Form>.Contraseña{
+.FirstDiv>.Form>.Contraseña, .FirstDiv>.Form>.Email {
     width: 250px;
     height: 30px;
     flex-shrink: 0;
@@ -39,7 +39,7 @@
  outline: none;
 }
 
-.FirstDiv>.Form>.O {
+.FirstDiv>.Form>.O{
     font-family: Product Sans;
     font-size: 20px;
     font-style: normal;
@@ -51,6 +51,21 @@
     -webkit-text-fill-color: transparent;
     text-align: center;
     margin-bottom: 0px;
+}
+
+.FirstDiv>.Form>.Login {
+  font-family: Product Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  background: linear-gradient(90deg, rgba(48, 124, 208, 1) 0%, rgba(65, 191, 238, 1) 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+  margin-bottom: 0px;
+  margin-top: 20px;
 }
 
 @import url(https://fonts.googleapis.com/css?family=Exo:100);
@@ -167,7 +182,7 @@ body {
 
 .FirstDiv>.Text4 {
     font-family: Product Sans;
-    margin-top: 0px;
+    margin-top: -5px;
     font-size: 36px;
     font-style: normal;
     font-weight: 400;
