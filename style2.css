@@ -1,0 +1,194 @@
+.FirstDiv2 {
+    margin: auto;
+    margin-top: 7%;
+    width: 300px;
+    height: 490px;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0px 0px 46px 0px rgba(0, 0, 0, 0.42);
+    background-color: #EEF5F3;
+}
+
+.FirstDiv2>.Form {
+    display: flex;
+    flex-direction: column;
+}
+
+.FirstDiv2>.Form>.Usuario,
+.FirstDiv2>.Form>.Contraseña, .FirstDiv2>.Form>.Email {
+    width: 250px;
+    height: 30px;
+    flex-shrink: 0;
+    border-radius: 25px;
+    background: #EEF5F3;
+    color: #808080;
+    font-family: Product Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    margin-bottom: 15px;
+    border-color: transparent;
+    line-height: normal;
+    box-shadow: 0px 0px 3.34074px 0px rgba(0, 0, 0, 0.07), 0px 0px 5.05926px 0px rgba(0, 0, 0, 0.12), 0px 0px 5px 0px rgba(0, 0, 0, 0.19);
+}
+
+.FirstDiv2>.Form>.Usuario:focus,
+.FirstDiv2>.Form>.Contraseña:focus{
+ outline: none;
+}
+
+.FirstDiv2>.Form>.O{
+    font-family: Product Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    background: linear-gradient(90deg, rgba(48, 124, 208, 1) 0%, rgba(65, 191, 238, 1) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.FirstDiv2>.Form>.Login {
+  font-family: Product Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  background: linear-gradient(90deg, rgba(48, 124, 208, 1) 0%, rgba(65, 191, 238, 1) 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+  margin-bottom: 0px;
+  margin-top: 20px;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Exo:100);
+@-webkit-keyframes bg-scrolling-reverse {
+  100% {
+    background-position: 50px 50px;
+  }
+}
+@-moz-keyframes bg-scrolling-reverse {
+  100% {
+    background-position: 50px 50px;
+  }
+}
+@-o-keyframes bg-scrolling-reverse {
+  100% {
+    background-position: 50px 50px;
+  }
+}
+@keyframes bg-scrolling-reverse {
+  100% {
+    background-position: 50px 50px;
+  }
+}
+@-webkit-keyframes bg-scrolling {
+  0% {
+    background-position: 50px 50px;
+  }
+}
+@-moz-keyframes bg-scrolling {
+  0% {
+    background-position: 50px 50px;
+  }
+}
+@-o-keyframes bg-scrolling {
+  0% {
+    background-position: 50px 50px;
+  }
+}
+@keyframes bg-scrolling {
+  0% {
+    background-position: 50px 50px;
+  }
+}
+
+body {
+  color: #999;
+  font: 400 16px/1.5 exo, ubuntu, "segoe ui", helvetica, arial, sans-serif;
+  text-align: center;
+  background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAIAAACRXR/mAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAIGNIUk0AAHolAACAgwAA+f8AAIDpAAB1MAAA6mAAADqYAAAXb5JfxUYAAABnSURBVHja7M5RDYAwDEXRDgmvEocnlrQS2SwUFST9uEfBGWs9c97nbGtDcquqiKhOImLs/UpuzVzWEi1atGjRokWLFi1atGjRokWLFi1atGjRokWLFi1af7Ukz8xWp8z8AAAA//8DAJ4LoEAAlL1nAAAAAElFTkSuQmCC") repeat 0 0;
+  -webkit-animation: bg-scrolling-reverse .92s infinite;
+  -moz-animation: bg-scrolling-reverse .92s infinite;
+  -o-animation: bg-scrolling-reverse .92s infinite;
+  animation: bg-scrolling-reverse .92s infinite;
+  -webkit-animation-timing-function: linear;
+  -moz-animation-timing-function: linear;
+  -o-animation-timing-function: linear;
+  animation-timing-function: linear;
+}
+
+.FirstDiv2>.Form>.Registarse {
+    width: 255px;
+    color: #FFF;
+    text-decoration: none;
+    font-family: Product Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    height: 35px;
+    border-color: transparent;
+    outline: none;
+    flex-shrink: 0;
+    background: linear-gradient(90deg, rgba(48, 124, 208, 1) 0%, rgba(65, 191, 238, 1) 100%);
+    border-radius: 25px;
+    box-shadow: 0px 0px 3.34074px 0px rgba(0, 0, 0, 0.07), 0px 0px 5.05926px 0px rgba(0, 0, 0, 0.12), 0px 0px 5px 0px rgba(0, 0, 0, 0.19);
+    text-align: center;
+    margin-top: 15px;
+}
+
+.FirstDiv2>.Form>.google {
+    width: 255px;
+    color: #FFF;
+    padding-top: 5px;
+    text-decoration: none;
+    font-family: Product Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    height: 30px;
+    border-color: transparent;
+    outline: none;
+    flex-shrink: 0;
+    background: linear-gradient(90deg, rgba(48, 124, 208, 1) 0%, rgba(65, 191, 238, 1) 100%);
+    border-radius: 25px;
+    box-shadow: 0px 0px 3.34074px 0px rgba(0, 0, 0, 0.07), 0px 0px 5.05926px 0px rgba(0, 0, 0, 0.12), 0px 0px 5px 0px rgba(0, 0, 0, 0.19);
+    text-align: center;
+    margin-top: 15px;
+}
+
+.FirstDiv2>.Jobly {
+    font-family: Product Sans;
+    margin-bottom: 10px;
+    font-size: 48px;
+    text-align: center;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    background: linear-gradient(90deg, rgba(48, 124, 208, 1) 0%, rgba(65, 191, 238, 1) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.FirstDiv2>.Text4 {
+    font-family: Product Sans;
+    margin-top: -5px;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    background: linear-gradient(90deg, rgba(48, 124, 208, 1) 0%, rgba(65, 191, 238, 1) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
