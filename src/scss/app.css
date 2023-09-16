@@ -108,3 +108,57 @@ header {
     margin: 0 auto;
     display: none;
 }
+
+.navJobly{
+    height: 10%;
+    background-color: #FFF;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    box-shadow: 0px 0.03703703731298447px 3.1481480598449707px 0px rgba(0, 0, 0, 0.03), 0px 0.16296295821666718px 6.518518447875977px 0px rgba(0, 0, 0, 0.05), 0px 0.4000000059604645px 13px 0px rgba(0, 0, 0, 0.06), 0px 0.770370364189148px 25.481481552124023px 0px rgba(0, 0, 0, 0.08), 0px 1.296296238899231px 46.85185241699219px 0px rgba(0, 0, 0, 0.10), 0px 2px 80px 0px rgba(0, 0, 0, 0.13);
+}
+
+.navJobly>.BienvenidaUsu{
+    color: #356CB1;
+    font-family: Product Sans;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 5px;
+    margin-left: 15px;
+}
+
+.navJobly>.Buttons{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-right: 8px;
+}
+
+.navJobly>.Buttons>.Username,.navJobly>.Buttons>.Close{
+    color: #356CB1;
+    width: 80px;
+    height: 40px;
+    font-family: Product Sans;
+    font-size: 15px;
+    border-radius: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    background-color: #FFF;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.navJobly>.Buttons>.Username:hover,.navJobly>.Buttons>.Close:hover{
+   background-color: #356CB1;
+   box-shadow: 0px 0.03703703731298447px 3.1481480598449707px 0px rgba(0, 0, 0, 0.03), 0px 0.16296295821666718px 6.518518447875977px 0px rgba(0, 0, 0, 0.05), 0px 0.4000000059604645px 13px 0px rgba(0, 0, 0, 0.06), 0px 0.770370364189148px 25.481481552124023px 0px rgba(0, 0, 0, 0.08), 0px 1.296296238899231px 46.85185241699219px 0px rgba(0, 0, 0, 0.10), 0px 2px 80px 0px rgba(0, 0, 0, 0.13);
+   color: #FFF;
+}
