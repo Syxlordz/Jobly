@@ -35,7 +35,7 @@
 }
 
 .FirstDiv2>.Form>.Usuario:focus,
-.FirstDiv2>.Form>.Contraseña:focus{
+.FirstDiv2>.Form>.Contraseña:focus, .FirstDiv2>.Form>.Email:focus{
  outline: none;
 }
 
