@@ -1,3 +1,9 @@
+@font-face {
+    font-family: 'Product Sans';
+    src: url('./src/scss/fuentes/Product Sans Regular.ttf');
+}
+
+
 .FirstDiv {
     margin: auto;
     margin-top: 7%;
