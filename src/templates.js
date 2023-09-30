@@ -13,10 +13,10 @@ export const jobTemplate = (job, currency) =>
 <div class="card">
   <div class="card-body">
   <h3>Publicado en ${job.job_publisher}</h3>
-  <h4 class="card-title">${job.job_title}, ${job.job_max_salary !== undefined && job.job_max_salary !== null
-    ? `Hasta ${currency}${job.job_max_salary}`
+  <h4 class="card-title">${job.job_title} ${job.job_max_salary !== undefined && job.job_max_salary !== null
+    ? `,Hasta ${currency}${job.job_max_salary}`
     : (job.job_min_salary !== undefined && job.job_min_salary !== null
-      ? `Desde ${currency}${job.job_min_salary}`
+      ? `,Desde ${currency}${job.job_min_salary}`
       : '')}
   </h4>
   <h4>Valoración de los candidatos que han aplicado: ${job.job_apply_quality_score.toString().substring(0, 3)}/1</h4>
