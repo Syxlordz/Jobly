@@ -19,7 +19,7 @@ export const jobTemplate = (job, currency) =>
       ? `Desde ${currency}${job.job_min_salary}`
       : '')}
   </h4>
-  <h4>Valoración de los candidatos que han aplicado:${job.job_apply_quality_score}/1</h4>
+  <h4>Valoración de los candidatos que han aplicado:${job.job_apply_quality_score.toString().substring(0, 3)}/1</h4>
   <h5>${job.job_city}</h5>
   <p class="card-text">${cortarDescripcion(job.job_description)}</p>
   <a class="Joblink" href="${job.job_apply_link}">View Job</a>
