@@ -21,6 +21,7 @@ header {
 
 .container {
     font-family: 'product Sans';
+    width: 100%;
 }
 
 .tooltip {
