@@ -138,7 +138,7 @@ header {
     margin-right: 8px;
 }
 
-.navJobly>.Buttons>.Username,.navJobly>.Buttons>.Close{
+.navJobly>.Buttons>.Username,.navJobly>.Buttons>.Close, .navJobly>.Buttons>.Login, .navJobly>.Buttons>.Register{
     color: #356CB1;
     width: 80px;
     height: 40px;
@@ -157,7 +157,7 @@ header {
     text-decoration: none;
 }
 
-.navJobly>.Buttons>.Close:hover{
+.navJobly>.Buttons>.Close:hover, .navJobly>.Buttons>.Login:hover, .navJobly>.Buttons>.Register:hover{
    background-color: #356CB1;
    box-shadow: 0px 0.03703703731298447px 3.1481480598449707px 0px rgba(0, 0, 0, 0.03), 0px 0.16296295821666718px 6.518518447875977px 0px rgba(0, 0, 0, 0.05), 0px 0.4000000059604645px 13px 0px rgba(0, 0, 0, 0.06), 0px 0.770370364189148px 25.481481552124023px 0px rgba(0, 0, 0, 0.08), 0px 1.296296238899231px 46.85185241699219px 0px rgba(0, 0, 0, 0.10), 0px 2px 80px 0px rgba(0, 0, 0, 0.13);
    color: #FFF;
