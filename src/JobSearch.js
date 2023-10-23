@@ -61,13 +61,13 @@ export class JobSearch {
       const options = {
         method: 'GET',
         headers: {
-          'X-RapidAPI-Key': '0b4bc7ad15mshad14a6f1e987516p1cc883jsn114a2b0b82eb',
+          'X-RapidAPI-Key': '23437911e5msh4db4fb8b8474e66p152645jsn121bbcd34248',
           'X-RapidAPI-Host': 'jsearch.p.rapidapi.com'
         }
       };
 
       const query = `trabajos de ${search} en ${location}, ${this.countryCode}`;
-      const num_pages = '1';
+      const num_pages = '4';
       const url = `https://jsearch.p.rapidapi.com/search?query=${query}&num_pages=${num_pages}`;
       try {
         fetch(url, options)
