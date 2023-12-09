@@ -95,7 +95,7 @@ header {
 
 .container>.search-form,
 .form-control {
-    width: 35%;
+    width: 70%;
     height: 40px;
     flex-shrink: 0;
     border-radius: 25px;
